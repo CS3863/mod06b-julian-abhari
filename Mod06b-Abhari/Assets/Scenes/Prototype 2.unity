@@ -336,12 +336,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 157453262}
-  - {fileID: 625511828}
-  - {fileID: 970818049}
-  - {fileID: 472832557}
-  - {fileID: 1956605092}
-  - {fileID: 1473890019}
+  - {fileID: 1319324154538235677, guid: b14f96f6a5cde33459a079a2f869f862, type: 3}
+  - {fileID: 7833591512113691486, guid: 975a79bc84980244f88870647f3a1418, type: 3}
+  - {fileID: 1220030855582189777, guid: 8f1eb7fa4985e334c97298df2c559bec, type: 3}
+  - {fileID: 2952020044065270828, guid: c7ab78240c2e9314c9fc3e812dea48bd, type: 3}
+  - {fileID: 8264411468950821722, guid: 89ec9ab542c53c7498a6beb9ecbf1690, type: 3}
+  - {fileID: 480877451750267959, guid: 5b60ed30daba99d4fadbceef14d95420, type: 3}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,9 +443,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
-  xRange: 10
-  projectilePrefab: {fileID: 487131691}
+  speed: 20
+  xRange: 20
+  projectilePrefab: {fileID: 3564388355915341969, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
 --- !u!1 &472832557 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 480877451750267959, guid: 5b60ed30daba99d4fadbceef14d95420, type: 3}
@@ -534,11 +534,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475985833}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &487131691 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3564388355915341969, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
-  m_PrefabInstance: {fileID: 3563316006993091641}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1410,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4581880893698818486, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
+      propertyPath: m_Size.x
+      value: 0.506224
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581880893698818486, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
+      propertyPath: m_Size.y
+      value: 0.30483738
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581880893698818486, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
+      propertyPath: m_Size.z
+      value: 0.4023242
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581880893698818486, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
+      propertyPath: m_Center.y
+      value: -0.0758855
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581880893698818486, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
+      propertyPath: m_Center.z
+      value: 0.17780408
+      objectReference: {fileID: 0}
     - target: {fileID: 3564388355915341969, guid: 1bea377cd4145c64da6a364eceaa3311, type: 3}
       propertyPath: m_Name
       value: BananPhone

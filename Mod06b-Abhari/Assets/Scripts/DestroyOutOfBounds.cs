@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
@@ -20,6 +21,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         } else if (transform.position.z < lowerBound)
         {
             Destroy(gameObject);
+            UnityEngine.Debug.Log("Game Over!");
         }
     }
 }

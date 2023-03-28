@@ -109,6 +109,9 @@ GameObject:
   - component: {fileID: 1319324154528883891}
   - component: {fileID: 1319324155481763356}
   - component: {fileID: 1319324155481763357}
+  - component: {fileID: -3118355300206086380}
+  - component: {fileID: -7821575995284122653}
+  - component: {fileID: -1705951522880189440}
   m_Layer: 0
   m_Name: FakePlayer
   m_TagString: Untagged
@@ -182,6 +185,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!65 &-3118355300206086380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319324154538235677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.9108956, z: 1}
+  m_Center: {x: 0, y: 1.455448, z: 0}
+--- !u!114 &-7821575995284122653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319324154538235677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4898f39a17445d943a70bbb632435862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1705951522880189440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319324154538235677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b1a70ef8db2bd488955f6de5a74ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1319324154538235745
 GameObject:
   m_ObjectHideFlags: 0
